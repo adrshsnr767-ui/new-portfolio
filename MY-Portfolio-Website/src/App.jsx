@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import FeaturedProjec from "./components/FeaturedProject";
+import FeaturedProject from "./components/FeaturedProject";
+import Footer from "./components/Footer";
 
 
 function App()
@@ -9,7 +10,9 @@ function App()
  <>
     <Navbar />
     <Hero />
-    <FeaturedProjec />
+    <FeaturedProject />
+    <Footer />
+    
 
 
  </>
