@@ -1,10 +1,12 @@
-function FeaturedProject() {
+import React from 'react'
+
+const FeaturedProject = () => {
   return (
-    <>
+     <>
       <section className="mt-[3rem]">
-        <div className=" max-w-[1440px] w-full mx-auto px-5 flex flex-col gap-[15px] h-auto">
+        <div className=" max-w-[1440px] w-full mx-auto px-[5rem] flex flex-col gap-[15px] h-auto">
           <span className="text-[#7D7F8C] cursor-pointer">
-            <i class="ri-arrow-right-down-line"></i> Scroll to explore
+            <i className="ri-arrow-right-down-line"></i> Scroll to explore
           </span>
           <span className=" text-[#D86D38] text-[20px] uppercase">
             Selected Work
@@ -25,11 +27,11 @@ function FeaturedProject() {
 {/* projects */}
 
 
-          <div className="grid sm:gap-x-[25px] gap-y-[25px]  w-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[15px]  ">
+          <div className="grid sm:gap-x-[35px] gap-y-[25px]  w-full  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[15px]  ">
            
-            <div className=" w-full   h-[57vh]  rounded-xl border border-gray-900">
+            <div className=" w-[full]   h-[57vh]  rounded-xl border border-gray-900 hover:border hover:border-[#D86D38] ">
               <div className="w-full h-[65%] bg-[#0A0B0F] rounded-t-xl text-9xl text-[#7D7F8C] flex  justify-center items-center ">
-                <i class="ri-id-card-line"></i>
+                <i className="ri-id-card-line"></i>
               </div>
               <div className="p-3 flex flex-col gap-[10px]">
                 <span
@@ -54,9 +56,9 @@ function FeaturedProject() {
             {/* break */}
 
             
-            <div className=" w-full  h-[57vh]  rounded-xl border border-gray-900">
+            <div className=" w-full  h-[57vh]  rounded-xl border border-gray-900  hover:border hover:border-[#D86D38]">
               <div className="w-full h-[65%] bg-[#0A0B0F] rounded-t-xl text-9xl text-[#7D7F8C] flex  justify-center items-center ">
-                <i class="ri-id-card-line"></i>
+                <i className="ri-id-card-line"></i>
               </div>
               <div className="p-3 flex flex-col gap-[10px]">
                 <span
@@ -84,9 +86,9 @@ function FeaturedProject() {
 
 
 
-            <div className="w-full  h-[57vh]  rounded-xl border border-gray-900 ">
+            <div className="w-full  h-[57vh]  rounded-xl border border-gray-900  hover:border hover:border-[#D86D38]">
            <div className="w-full h-[65%]  bg-[#0A0B0F] rounded-t-xl text-9xl text-[#7D7F8C] flex  justify-center items-center ">
-                <i class="ri-id-card-line"></i>
+                <i className="ri-id-card-line"></i>
               </div>
               <div className="p-3 flex flex-col gap-[10px]">
                 <span
@@ -111,7 +113,7 @@ function FeaturedProject() {
         </div>
       </section>
     </>
-  );
+  )
 }
 
-export default FeaturedProject;
+export default FeaturedProject

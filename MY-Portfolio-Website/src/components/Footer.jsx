@@ -1,11 +1,13 @@
-function Footer() {
-    return (
-        <>
+import React from 'react'
+
+const Footer = () => {
+  return (
+   <>
 
 
             <footer className=" mt-[8rem]" >
-                <div className=" max-w-[1440px] w-full mx-auto p-5 pb-7">
-                    <hr className=" text-[#555555] mb-[2rem]" />
+                <div className=" max-w-[1440px] w-full mx-auto  px-[5rem] pb-7">
+                     <hr className=" text-[#555555] mb-[2rem]" />
                     <div className=" flex  justify-between">
                         <div className=" flex gap-1">
                             <span className=" text-[#7D7F8C] ">© 2026 Portfolio.</span>
@@ -22,6 +24,7 @@ function Footer() {
                 </div>
             </footer>
         </>
-    )
+  )
 }
-export default Footer;
+
+export default Footer

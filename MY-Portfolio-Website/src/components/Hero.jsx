@@ -1,7 +1,10 @@
-function Hero() {
+import React from 'react'
+
+const Hero = () => {
   return (
-    <section className="mt-[2.3rem] w-full bg-[#010101]">
-      <div className="text-white max-w-[1440px] w-full mx-auto px-5 flex flex-col gap-5">
+    <>
+     <section className="mt-[2.3rem] w-full bg-[#010101]">
+      <div className="text-white max-w-[1440px] w-full mx-auto px-[5rem] flex flex-col gap-5">
 
         <div
           className="text-[#d86d38] text-[1.3em]"
@@ -11,7 +14,7 @@ function Hero() {
         </div>
 
         <div
-          className="text-[rgb(228,228,228)] w-full sm:w-[50%] text-[4em] sm:text-[6em] font-bold text-base/[1.2em]"
+          className="text-[rgb(228,228,228)] w-full sm:w-[60%] text-[4em] sm:text-[6em] font-bold text-base/[1.2em]"
           style={{ fontFamily: "'Fraunces', serif" }}
         >
           Crafting digital experiences that leave a mark
@@ -42,8 +45,8 @@ function Hero() {
         </div>
 
       </div>
-    </section>
-  );
+    </section></>
+  )
 }
 
-export default Hero;
+export default Hero
